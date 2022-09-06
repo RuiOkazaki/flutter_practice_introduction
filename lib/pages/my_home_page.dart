@@ -14,6 +14,7 @@ class MyHomePage extends StatelessWidget {
           genLink(context, "/whats_today"),
           genLink(context, "/now_loading"),
           genLink(context, "/whats_day"),
+          genLink(context, "/animation_widget"),
         ],
       ),
       drawer: const Drawer(
