@@ -53,6 +53,7 @@ class _WhatsTodayState extends State<WhatsDay> {
                             showTitleActions: true,
                             minTime: DateTime(1900, 1, 1),
                             maxTime: DateTime(2100, 1, 1),
+                            locale: LocaleType.jp,
                             currentTime: now, onConfirm: (date) {
                           setState(() {
                             _date = outputFormat.format(date);
