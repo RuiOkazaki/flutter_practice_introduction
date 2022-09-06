@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_practice_introduction/components/header.dart';
+import 'package:flutter_practice_introduction/components/link.dart';
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
@@ -11,13 +12,7 @@ class MyHomePage extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          TextButton.icon(
-              onPressed: () {},
-              icon: const Icon(
-                Icons.link,
-                size: 24,
-              ),
-              label: const Text("hoge")),
+          genLink(context, "/whats_today"),
         ],
       ),
       drawer: const Drawer(
