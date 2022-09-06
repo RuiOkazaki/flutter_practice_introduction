@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_practice_introduction/pages/my_home_page.dart';
+import 'package:flutter_practice_introduction/pages/whats_today.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: <String, WidgetBuilder>{
         '/': (BuildContext context) => const MyHomePage(),
+        '/whats_today': (BuildContext context) => const WhatsToday(),
       },
     );
   }
