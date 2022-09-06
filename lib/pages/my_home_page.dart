@@ -9,11 +9,11 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: genHeader('Router'),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
+      body: ListView(
+        children: <Widget>[
           genLink(context, "/whats_today"),
           genLink(context, "/now_loading"),
+          genLink(context, "/whats_day"),
         ],
       ),
       drawer: const Drawer(

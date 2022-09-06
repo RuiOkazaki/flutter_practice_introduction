@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_practice_introduction/pages/my_home_page.dart';
 import 'package:flutter_practice_introduction/pages/now_loading.dart';
 import 'package:flutter_practice_introduction/pages/whats_today.dart';
+import 'package:flutter_practice_introduction/pages/whats_day.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         '/': (BuildContext context) => const MyHomePage(),
         '/whats_today': (BuildContext context) => const WhatsToday(),
         '/now_loading': (BuildContext context) => const NowLoading(),
+        '/whats_day': (BuildContext context) => const WhatsDay(),
       },
     );
   }
