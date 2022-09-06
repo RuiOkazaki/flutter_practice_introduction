@@ -17,10 +17,13 @@ class _NowLoadingState extends State<NowLoading> {
         appBar: genHeader("now loading"),
         body: Column(
           children: [
-            TextButton.icon(
-              onPressed: _changeState,
-              icon: const Icon(Icons.change_circle),
-              label: Text('isLoading: $isLoading'),
+            Align(
+              alignment: Alignment.center,
+              child: TextButton.icon(
+                onPressed: _changeState,
+                icon: const Icon(Icons.change_circle),
+                label: Text('isLoading: $isLoading'),
+              ),
             ),
             if (isLoading)
               Center(
