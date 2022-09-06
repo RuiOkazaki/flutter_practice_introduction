@@ -13,6 +13,7 @@ class MyHomePage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           genLink(context, "/whats_today"),
+          genLink(context, "/now_loading"),
         ],
       ),
       drawer: const Drawer(
