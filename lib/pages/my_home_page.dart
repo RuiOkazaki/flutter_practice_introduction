@@ -16,6 +16,7 @@ class MyHomePage extends StatelessWidget {
           genLink(context, "/whats_day"),
           genLink(context, "/animation_widget"),
           genLink(context, "/image_api"),
+          genLink(context, "/gps"),
         ],
       ),
       drawer: const Drawer(
