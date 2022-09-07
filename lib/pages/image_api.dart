@@ -44,10 +44,12 @@ class _CameraPageState extends State<CameraPage> {
           Container(
             margin: const EdgeInsets.only(right: 16),
             child: FloatingActionButton(
+                heroTag: 'camera',
                 onPressed: getImageFromCamera,
                 child: const Icon(Icons.photo_camera)),
           ),
           FloatingActionButton(
+              heroTag: 'album',
               onPressed: getImageFromGarally,
               child: const Icon(Icons.photo_album)),
         ],
