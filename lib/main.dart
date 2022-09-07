@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_practice_introduction/firebase_options.dart';
 import 'package:flutter_practice_introduction/pages/animation_widget.dart';
+import 'package:flutter_practice_introduction/pages/google_signin.dart';
 import 'package:flutter_practice_introduction/pages/gps.dart';
 import 'package:flutter_practice_introduction/pages/image_api.dart';
 import 'package:flutter_practice_introduction/pages/my_home_page.dart';
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
         '/image_api': (BuildContext context) => const CameraPage(),
         '/gps': (BuildContext context) => const Gps(),
         '/signin_page': (BuildContext context) => const SigninPage(),
+        '/google_signin': (BuildContext context) => const GoogleSignin(),
       },
     );
   }
