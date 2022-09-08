@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_practice_introduction/firebase_options.dart';
 import 'package:flutter_practice_introduction/pages/animation_widget.dart';
+import 'package:flutter_practice_introduction/pages/app_lifesycle_page.dart';
 import 'package:flutter_practice_introduction/pages/firebase_storage.dart';
 import 'package:flutter_practice_introduction/pages/firestore_page.dart';
 import 'package:flutter_practice_introduction/pages/google_signin.dart';
@@ -45,6 +46,8 @@ class MyApp extends StatelessWidget {
         '/firebase_storage_page': (BuildContext context) =>
             const FirebaseStoragePage(),
         '/lifesycle_page': (BuildContext context) => const LifesyclePage(),
+        '/app_lifesycle_page': (BuildContext context) =>
+            const AppLifesyclePage(),
       },
     );
   }
