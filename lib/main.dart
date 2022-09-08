@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_practice_introduction/firebase_options.dart';
 import 'package:flutter_practice_introduction/pages/animation_widget.dart';
+import 'package:flutter_practice_introduction/pages/firebase_storage.dart';
 import 'package:flutter_practice_introduction/pages/firestore_page.dart';
 import 'package:flutter_practice_introduction/pages/google_signin.dart';
 import 'package:flutter_practice_introduction/pages/gps.dart';
@@ -40,6 +41,8 @@ class MyApp extends StatelessWidget {
         '/signin_page': (BuildContext context) => const SigninPage(),
         '/google_signin': (BuildContext context) => const GoogleSignin(),
         '/firestore_page': (BuildContext context) => const FirestorePage(),
+        '/firebase_storage_page': (BuildContext context) =>
+            const FirebaseStoragePage(),
       },
     );
   }
