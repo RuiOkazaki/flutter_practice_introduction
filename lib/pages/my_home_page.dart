@@ -21,6 +21,7 @@ class MyHomePage extends StatelessWidget {
           genLink(context, "/google_signin"),
           genLink(context, "/firestore_page"),
           genLink(context, "/firebase_storage_page"),
+          genLink(context, "/lifesycle_page"),
         ],
       ),
       drawer: const Drawer(

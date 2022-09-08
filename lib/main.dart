@@ -7,6 +7,7 @@ import 'package:flutter_practice_introduction/pages/firestore_page.dart';
 import 'package:flutter_practice_introduction/pages/google_signin.dart';
 import 'package:flutter_practice_introduction/pages/gps.dart';
 import 'package:flutter_practice_introduction/pages/image_api.dart';
+import 'package:flutter_practice_introduction/pages/lifesycle_page.dart';
 import 'package:flutter_practice_introduction/pages/my_home_page.dart';
 import 'package:flutter_practice_introduction/pages/now_loading.dart';
 import 'package:flutter_practice_introduction/pages/signin_page.dart';
@@ -43,6 +44,7 @@ class MyApp extends StatelessWidget {
         '/firestore_page': (BuildContext context) => const FirestorePage(),
         '/firebase_storage_page': (BuildContext context) =>
             const FirebaseStoragePage(),
+        '/lifesycle_page': (BuildContext context) => const LifesyclePage(),
       },
     );
   }
