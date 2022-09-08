@@ -19,6 +19,7 @@ class MyHomePage extends StatelessWidget {
           genLink(context, "/gps"),
           genLink(context, "/signin_page"),
           genLink(context, "/google_signin"),
+          genLink(context, "/firestore_page"),
         ],
       ),
       drawer: const Drawer(
