@@ -23,6 +23,7 @@ class MyHomePage extends StatelessWidget {
           genLink(context, "/firebase_storage_page"),
           genLink(context, "/lifesycle_page"),
           genLink(context, "/app_lifesycle_page"),
+          genLink(context, "/stream_pattern"),
         ],
       ),
       drawer: const Drawer(

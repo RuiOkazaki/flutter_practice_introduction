@@ -12,6 +12,7 @@ import 'package:flutter_practice_introduction/pages/lifesycle_page.dart';
 import 'package:flutter_practice_introduction/pages/my_home_page.dart';
 import 'package:flutter_practice_introduction/pages/now_loading.dart';
 import 'package:flutter_practice_introduction/pages/signin_page.dart';
+import 'package:flutter_practice_introduction/pages/stream_pattern.dart';
 import 'package:flutter_practice_introduction/pages/whats_today.dart';
 import 'package:flutter_practice_introduction/pages/whats_day.dart';
 
@@ -48,6 +49,7 @@ class MyApp extends StatelessWidget {
         '/lifesycle_page': (BuildContext context) => const LifesyclePage(),
         '/app_lifesycle_page': (BuildContext context) =>
             const AppLifesyclePage(),
+        '/stream_pattern': (BuildContext context) => const StreamPattern(),
       },
     );
   }
