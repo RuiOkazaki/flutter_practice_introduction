@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_practice_introduction/components/header.dart';
 import 'package:flutter_practice_introduction/components/link.dart';
 
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
+class Index extends StatelessWidget {
+  const Index({super.key});
 
   @override
   Widget build(BuildContext context) {

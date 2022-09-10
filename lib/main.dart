@@ -9,7 +9,7 @@ import 'package:flutter_practice_introduction/pages/google_signin.dart';
 import 'package:flutter_practice_introduction/pages/gps.dart';
 import 'package:flutter_practice_introduction/pages/image_api.dart';
 import 'package:flutter_practice_introduction/pages/lifesycle_page.dart';
-import 'package:flutter_practice_introduction/pages/my_home_page.dart';
+import 'package:flutter_practice_introduction/pages/index.dart';
 import 'package:flutter_practice_introduction/pages/now_loading.dart';
 import 'package:flutter_practice_introduction/pages/signin_page.dart';
 import 'package:flutter_practice_introduction/pages/stream_pattern.dart';
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: <String, WidgetBuilder>{
-        '/': (BuildContext context) => const MyHomePage(),
+        '/': (BuildContext context) => const Index(),
         '/whats_today': (BuildContext context) => const WhatsToday(),
         '/now_loading': (BuildContext context) => const NowLoading(),
         '/whats_day': (BuildContext context) => const WhatsDay(),
