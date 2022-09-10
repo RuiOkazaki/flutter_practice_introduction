@@ -5,6 +5,7 @@ import 'package:flutter_practice_introduction/pages/animation_widget.dart';
 import 'package:flutter_practice_introduction/pages/app_lifesycle_page.dart';
 import 'package:flutter_practice_introduction/pages/firebase_storage.dart';
 import 'package:flutter_practice_introduction/pages/firestore_page.dart';
+import 'package:flutter_practice_introduction/pages/flutter_state_notifier.dart';
 import 'package:flutter_practice_introduction/pages/google_signin.dart';
 import 'package:flutter_practice_introduction/pages/gps.dart';
 import 'package:flutter_practice_introduction/pages/image_api.dart';
@@ -50,6 +51,8 @@ class MyApp extends StatelessWidget {
         '/app_lifesycle_page': (BuildContext context) =>
             const AppLifesyclePage(),
         '/stream_pattern': (BuildContext context) => const StreamPattern(),
+        '/flutter_state_notifier': (BuildContext context) =>
+            const StateNotifierCounterPage(),
       },
     );
   }

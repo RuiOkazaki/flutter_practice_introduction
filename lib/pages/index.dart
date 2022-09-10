@@ -24,6 +24,7 @@ class Index extends StatelessWidget {
           genLink(context, "/lifesycle_page"),
           genLink(context, "/app_lifesycle_page"),
           genLink(context, "/stream_pattern"),
+          genLink(context, "/flutter_state_notifier"),
         ],
       ),
       drawer: const Drawer(
